@@ -1,0 +1,18 @@
+{
+  "name": "fuid",
+  "version": "1.0.0",
+  "description": "gerador de ID personalizado em Javascript que gera ID com base no tempo atual e dados da Máquina do Usuário sendo assim possível resgatar a data na qual o ID foi gerado!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.5.4",
+    "fastify": "^4.28.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
